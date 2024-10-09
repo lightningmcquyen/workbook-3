@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffe5c1c0-5e1f-4abf-b898-4e5c7034cc74" name="Changes" comment="" />
+    <list default="true" id="ffe5c1c0-5e1f-4abf-b898-4e5c7034cc74" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Bedtime-Stories/src/main/java/com/pluralsight/bedtime/BedtimeStories.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bedtime-Stories/src/main/java/com/pluralsight/bedtime/BedtimeStories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/quotes/FamousQuotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/quotes/FamousQuotes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Payroll-Calculator/src/main/java/com/pluralsight/payroll/PayrollCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Payroll-Calculator/src/main/java/com/pluralsight/payroll/PayrollCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Payroll-Calculator/target/classes/com/pluralsight/payroll/PayrollCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Payroll-Calculator/target/classes/com/pluralsight/payroll/PayrollCalculator.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

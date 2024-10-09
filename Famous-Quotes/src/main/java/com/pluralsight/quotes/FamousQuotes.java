@@ -27,7 +27,6 @@ public class FamousQuotes {
         Random random = new Random();
         boolean Continue = true;
 
-
         while (Continue) {
             System.out.println("Enter a number between 1 and 10 to see a quote (enter 0 for a random quote):");
             try {

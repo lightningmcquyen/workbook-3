@@ -1,13 +1,12 @@
-package com.pluralsight.payroll;
+package com.pluralsight.paylist;
 
-public class Employee {
+public class EmployeeList {
     private String employeeId;
     private String name;
     private double hoursWorked;
     private double payRate;
 
-    // Constructor
-    public Employee(String employeeId, String name, double hoursWorked, double payRate) {
+    public EmployeeList(String employeeId, String name, double hoursWorked, double payRate) {
         this.employeeId = employeeId;
         this.name = name;
         this.hoursWorked = hoursWorked;
@@ -31,6 +30,7 @@ public class Employee {
     }
 
     public double getHoursWorked() {
+
         return hoursWorked;
     }
 
@@ -53,5 +53,10 @@ public class Employee {
     public double getGrossPay() {
 
         return hoursWorked * payRate;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("EmployeeID: %s\n" + "Name: %s\n" + "Hours Worked: %.0f hours\n" + "Pay Rate: $%.2f\n", employeeId, name, hoursWorked, payRate);
     }
 }

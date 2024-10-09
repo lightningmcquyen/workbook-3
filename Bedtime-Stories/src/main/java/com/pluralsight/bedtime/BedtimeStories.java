@@ -7,7 +7,7 @@ public class BedtimeStories {
 
     public static void readStory(String filename) throws FileNotFoundException {
 
-        FileInputStream fis = new FileInputStream("./src/main/resources/DataFiles/");
+        FileInputStream fis = new FileInputStream(".//src//main//resources//DataFiles//");
         Scanner fileScanner = new Scanner(fis);
 
         while (fileScanner.hasNextLine()) {

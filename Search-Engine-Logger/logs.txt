@@ -7,3 +7,10 @@ C. Exiting the application
 A. Launching the application
 B. Searching for a term: testing 3
 C. Exiting the application
+A. Launching the application
+B. Searching for a term: testing againnnnn
+C. Exiting the application
+launch
+Exit
+launch
+Search : testing 100

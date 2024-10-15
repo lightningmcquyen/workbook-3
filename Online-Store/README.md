@@ -2,7 +2,6 @@
 
 ![Image](images/ooohcoloredmenu.png "Display home screen and cool code!")
 
-()
 
 It's like TJ Maxx meets Microcenter. My inventory consists of data items pulled from an Excel CSV file. In this application, the user is able to:
 

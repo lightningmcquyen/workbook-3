@@ -11,42 +11,27 @@ public class Product {
         this.name = name;
         this.price = price;
         this.department = department;
-        }
+    }
 
     public String getSku() {
         return sku;
-    }
-
-    public void setSku(String sku) {
-        this.sku = sku;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public double getPrice() {
         return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
     }
 
     public String getDepartment() {
         return department;
     }
 
-    public void setDepartment(String department) {
-        this.department = department;
-    }
 
     @Override
-        public String toString() {
-            return String.format("", name, sku, price, department);
-        }
+    public String toString() {
+        return String.format("SKU: %s\nProduct Name: %s\nPrice: $%.2f\nDepartment: %s\n", sku, name, price, department);
+    }
 }

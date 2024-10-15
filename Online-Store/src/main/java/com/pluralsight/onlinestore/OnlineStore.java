@@ -52,14 +52,14 @@ public class OnlineStore {
         final String PINK = "\033[35m";    // Pink
 
         while (true) {
-            System.out.println(PINK + "Quyen's Quick Mart" + RESET);
-            System.out.println(PINK + "(1) Display Products" + RESET);
-            System.out.println(GREEN + "(2) Search Products" + RESET);
-            System.out.println(PINK + "(3) Display Cart" + RESET);
-            System.out.println(GREEN + "(4) Remove Item from Cart" + RESET);
-            System.out.println(PINK + "(5) Clear Cart" + RESET);
-            System.out.println(GREEN + "(6) Exit" + RESET);
-            System.out.print(PINK + "Enter Your Option (1-6): " + RESET);
+            System.out.println(PINK + "Quyen's Quick Mart");
+            System.out.println(PINK + "(1) Display Products");
+            System.out.println(GREEN + "(2) Search Products");
+            System.out.println(PINK + "(3) Display Cart");
+            System.out.println(GREEN + "(4) Remove Item from Cart");
+            System.out.println(PINK + "(5) Clear Cart");
+            System.out.println(GREEN + "(6) Exit");
+            System.out.print(PINK + "Enter Your Option (1-6): ");
 
 
             int option = scanner.nextInt();
